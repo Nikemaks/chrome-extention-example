@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+#app-root {
+    width: 400px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(46, 12, 80);
+    color: #fff;
+}
+
+.password-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.password-block__input {
+    height: 36px;
+    padding-left: 15px;
+}
+
+.password-block__options ul {
+    padding: 0;
+}
+
+.password-block__options ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.password-block .btn {
+    padding: 10px 0;
+}
+
+.password-block .btn:hover {
+    cursor: pointer;
+}
+.password-length {
+    width: 40px;
+    text-align: center;
+}

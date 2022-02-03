@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+
+  "name": "Generate password",
+  "description": "Generate random password",
+  "version": "1.0",
+  "action": {
+    "default_icon": "reset-password.png",
+    "default_popup": "index.html",
+    "default_title": "Generate password"
+  }
+}
